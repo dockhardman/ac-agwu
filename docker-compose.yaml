@@ -2,6 +2,7 @@ version: "3.2"
 services:
   ac-nginx-ui:
     image: cym1102/nginxwebui:latest
+    container_name: ac-nginx-ui
     volumes:
       - type: bind
         source: "./data"
